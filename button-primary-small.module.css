@@ -1,0 +1,20 @@
+.browseProducts {
+  position: relative;
+}
+.buttonPrimarySmall {
+  border-radius: var(--br-mini) var(--br-31xl) var(--br-mini) var(--br-31xl);
+  background-color: var(--white-100);
+  width: 194px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  color: var(--black-100);
+  font-family: var(--font-dm-sans);
+  margin-top: 30px;
+}

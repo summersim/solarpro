@@ -1,0 +1,312 @@
+.home1,
+.swap {
+  position: absolute;
+  top: 10px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.home1 {
+  left: 14px;
+  color: var(--white-100);
+}
+.swap,
+.tokens,
+.trade {
+  left: 104.5px;
+  cursor: pointer;
+}
+.tokens,
+.trade {
+  left: 190.3px;
+}
+.tokens {
+  left: 261.5px;
+}
+.div {
+  top: 0;
+  left: 58px;
+  width: 335px;
+  width: 100%;
+  height: 52px;
+}
+.div,
+.svgIcon,
+.track {
+  position: absolute;
+}
+.track {
+  top: 9px;
+  left: 411px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.svgIcon {
+  top: 15px;
+  left: 17px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.searchTokens {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 262.7px;
+  height: 20px;
+}
+.divplaceholder {
+  position: absolute;
+  top: 13px;
+  left: 45px;
+  width: 386px;
+  height: 20px;
+  overflow: hidden;
+}
+.div3 {
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  line-height: 16px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  width: 5px;
+  height: 15px;
+}
+.div2 {
+  top: calc(50% - 10px);
+  left: 443px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-cornflowerblue);
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
+  font-size: var(--font-size-xs);
+}
+.div1,
+.div2,
+.svgIcon1 {
+  position: absolute;
+}
+.div1 {
+  top: 0;
+  left: 499px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-500);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 387px;
+  height: 46px;
+  text-align: left;
+}
+.svgIcon1 {
+  top: calc(50% - 12px);
+  left: calc(50% - 158px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.imageIcon {
+  top: calc(50% - 10px);
+  left: 6px;
+  width: 20px;
+  object-fit: cover;
+}
+.imageIcon,
+.solidity,
+.svgIcon2 {
+  position: absolute;
+  height: 20px;
+}
+.solidity {
+  top: 10px;
+  left: 34px;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 73.9px;
+}
+.svgIcon2 {
+  top: calc(50% - 10px);
+  left: 115.7px;
+  width: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.button {
+  position: absolute;
+  top: 0;
+  left: 52px;
+  border-radius: var(--br-5xs);
+  width: 141.7px;
+  height: 40px;
+}
+.connect {
+  position: relative;
+  font-weight: 600;
+}
+.div6,
+.svgIcon3 {
+  position: relative;
+  height: 20px;
+}
+.div6 {
+  background-color: var(--color-sandybrown);
+  width: 1px;
+}
+.svgIcon3 {
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div5 {
+  position: absolute;
+  top: 0;
+  left: 205.7px;
+  border-radius: var(--br-9980xl);
+  background-color: var(--color-gray-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+  gap: var(--gap-7xs);
+  color: var(--primary-100);
+}
+.div4,
+.favicon1 {
+  position: absolute;
+  height: 44px;
+}
+.div4 {
+  top: 1px;
+  left: 889px;
+  width: 346px;
+  color: var(--white-100);
+}
+.favicon1 {
+  top: 2px;
+  left: 0;
+  width: 45px;
+  object-fit: cover;
+}
+.divParent,
+.trackParent {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%; /* Set width to 100% */
+  height: 52px;
+}
+.divParent {
+  top: 20px;
+  left: 22px;
+  width: 100%;
+  height: 52px;
+}
+.home {
+  position: relative;
+  background-color: var(--color-gray-400);
+  width: 100%; /* Set width to 100% */
+  height: 100vh; /* Set height to 100% of the viewport height */
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-lightsteelblue);
+  font-family: var(--font-inter);
+}
+
+.btc {
+  position: absolute;
+  top: 200px;
+  left: 45px;
+  width: 1166px;
+  height: 295px;
+  text-align: center;
+  font-size: var(--heading-h5-size);
+  color: var(--white-100);
+  font-family: var(--paragraph-p1);
+}
+
+.youPay {
+  position: absolute;
+  top: 26px;
+  left: 31px;
+  width: 145px;
+  height: 44px;
+}
+
+.div7,
+.youPay {
+  font-weight: 500;
+  display: inline-block;
+}
+.div7 {
+  position: absolute;
+  top: 84px;
+  left: 35px;
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-helvetica-neue);
+  text-align: right;
+  width: 45px;
+  height: 90px;
+}
+
+.buttonContainer {
+  position: absolute;
+  top: 450px;
+  left: 0px;
+  width: 1166px;
+  height: 295px;
+  text-align: center;
+  font-size: var(--heading-h5-size);
+  color: var(--white-100);
+  font-family: var(--paragraph-p1);
+}
+
+.welcomeToSolarContainer {
+  position: absolute;
+  top: 244px;
+  left: 100px;
+  font-size: var(--font-size-53xl);
+  display: inline-block;
+  font-family: var(--font-syne);
+  width: 100%;
+  color: var(--white-100);
+}
+
+.connectWalletContainer {
+  position: absolute;
+  bottom: 200px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.welcomeTo {
+  margin: 0;
+  font-size: 5vW;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-65%, -50%);
+}
+
+.solarPro {
+  margin: 0;
+  background: linear-gradient(180deg, #870000 48%, #fe5f3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5vW;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  transform: translate(-70%, 50%);
+}

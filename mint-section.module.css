@@ -1,0 +1,107 @@
+.buttonParent {
+  position: absolute;
+  top: 239px;
+  left: 0px;
+  width: 1166px;
+  height: 295px;
+  text-align: center;
+  font-size: var(--heading-h5-size);
+  color: var(--white-100);
+  font-family: var(--paragraph-p1);
+}
+.web3Button {
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.yourRegion {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 268px;
+  flex-shrink: 0;
+}
+.selectYourRegion {
+  flex: 1;
+  position: relative;
+}
+.selectYourRegionWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper,
+.yourRegionParent {
+  border-radius: var(--br-mini) var(--br-25xl) var(--br-mini) var(--br-25xl);
+  background-color: var(--black-100);
+  width: 556px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--paragraph-p1-size);
+}
+.yourRegionParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-dimgray-200);
+  width: 919px;
+  height: 125px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-36xl) 0;
+  gap: var(--gap-34xl);
+  text-align: center;
+  font-size: var(--heading-h5-size);
+  color: var(--white-100);
+  font-family: var(--paragraph-p1);
+}
+.regionSelectorContainer, .energyProducedContainer {
+  top: 139px;
+  left: 373px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 198px;
+  overflow: hidden;
+}
+.label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.inputStyle {
+  width: 200px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.div7 {
+  position: absolute;
+  top: 84px;
+  left: 35%;
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-helvetica-neue);
+  text-align: right;
+  width: 45px;
+  height: 40px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+}
