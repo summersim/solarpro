@@ -32,5 +32,5 @@ This is a prototype and is not fully functional. Please refer to the software en
 
 You can find the report here:
 
-[View the Report](solarpro.pdf)
+[View the Report](SolarPro.pdf)
 
